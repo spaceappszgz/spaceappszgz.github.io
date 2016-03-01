@@ -1,0 +1,91 @@
+---
+layout: landing
+---
+<style>
+#map {
+        width: 500px;
+        height: 400px;
+      }
+      </style>
+      <script>
+
+  function initMap() {
+  	  	  var myLatLng = {lat: 41.659023, lng: -0.906811};
+    var mapDiv = document.getElementById('map');
+  	    var map = new google.maps.Map(mapDiv, {
+      center: myLatLng,
+      zoom: 16,
+      scrollwheel: false
+    });
+  	  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Etopia'
+  });
+
+
+
+
+map.set('styles', [
+ {
+        "featureType": "all",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "gamma": 0.5
+            }
+        ]
+    }
+]);
+
+marker.setMap(map);
+  }
+</script>
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2><span class="glyphicon glyphicon-star-empty" ></span>{{ site.title }}<span class="glyphicon glyphicon-star-empty"></span></h2>
+							<h3 style="font-size:25px">{{ site.description | markdownify }}</h3>
+							<p>¿Quieres formar parte de un <span style="font-weight: bold">hackathon internacional</span> <br/> organizado por la <span style="font-weight: bold">NASA?</span> 
+							<ul class="actions">
+								<li><a href="https://2016.spaceappschallenge.org/" class="button special">Regístrate</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Más Información</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Patrocinadores<br /></h2>
+							</header>
+							<ul class="icons major">
+								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
+								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Two -->
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Arcue ut vel commodo</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="#" class="button fit special">Activate</a></li>
+								<li><a href="#" class="button fit">Learn More</a></li>
+							</ul>
+						</div>
+					</section>
+					<section id="map" style="width:100%">
+						<div id="map"></div>
+					</section>
