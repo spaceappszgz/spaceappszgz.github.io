@@ -2,47 +2,41 @@
 layout: landing
 ---
 <style>
-#map {
+    #map {
         width: 500px;
         height: 400px;
-      }
-      </style>
-      <script>
-
-  function initMap() {
-  	  	  var myLatLng = {lat: 41.659023, lng: -0.906811};
-    var mapDiv = document.getElementById('map');
-  	    var map = new google.maps.Map(mapDiv, {
-      center: myLatLng,
-      zoom: 16,
-      scrollwheel: false
-    });
-  	  var marker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    title: 'Etopia'
-  });
-
-
-
-
-map.set('styles', [
- {
-        "featureType": "all",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": -100
-            },
-            {
-                "gamma": 0.5
-            }
-        ]
     }
-]);
+</style>
+<script>
+    function initMap() {
+        var myLatLng = {
+            lat: 41.659023,
+            lng: -0.906811
+        };
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: myLatLng,
+            zoom: 16,
+            scrollwheel: false
+        });
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Etopia'
+        });
 
-marker.setMap(map);
-  }
+        map.set('styles', [{
+            "featureType": "all",
+            "elementType": "all",
+            "stylers": [{
+                "saturation": -100
+            }, {
+                "gamma": 0.5
+            }]
+        }]);
+
+        marker.setMap(map);
+    }
 </script>
 				<!-- Banner -->
 					<section id="banner">
@@ -72,6 +66,74 @@ marker.setMap(map);
 					</section>
 
 				<!-- Two -->
+					<section id="colaboradores" class="wrapper style1 special">
+						<div class="container" id="colaboradores">
+  <div class="row" style="padding-bottom:5%;">
+    <div class="col-md-12">
+      							<header class="major">
+								<h2>Colaboradores<br /></h2>
+							</header>
+    </div>
+       <div class="row">
+      <div class="col-md-6">
+        <div class="circular" style="background-image: url('images/honor.jpg')">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="description">
+          <p class="name_colaborador">Miguel de Cervantes</p>
+          <p class ="role_colaborador"> Miembro de honor </p>
+          <p>
+            <a class="track" id="twitter_zarazaga" href="https://twitter.com/jazarso"><img style="height:18px; width:18px" src="images/twitter.png" alt="HTML5 Icon"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="circular" style="background-image: url('images/colaborador_1.jpg')">
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="description">
+          <p class="name_colaborador">Javier Zarazaga</p>
+          <p class ="role_colaborador"> Organizador </p>
+          <p>
+            <a class="track" id="twitter_zarazaga" href="https://twitter.com/jazarso"><img style="height:18px; width:18px" src="images/twitter.png"></a>
+            <a class="track" id="linkedin_zarazaga" href="https://es.linkedin.com/in/fjzarazagasoria"><img style="height:18px; width:18px" src="images/linkedin.png" alt="HTML5 Icon"></a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-18 col-md-2">
+        <div class="circular" style="background-image: url('images/pon_1.jpg');">
+        </div>
+      </div>
+      <div class="col-xs-18 col-md-2">
+        <div class="description">
+          <p class="name_colaborador">Alberto Virto</p>
+          <p class ="role_colaborador"> Organizador </p>
+          <p>
+            <a class="track" id="linkedin_virto" href="https://es.linkedin.com/pub/alberto-virto/1a/281/591"><img style="height:18px; width:18px" src="images/linkedin.png"></a>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="circular" style="background-image: url('images/juez_2.jpeg')">
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="description">
+          <p class="name_colaborador">Fco. Javier López</p>
+          <p class ="role_colaborador"> Jurado </p>
+          <p>
+            <a class="track" id="twitter_pellicer" href="https://twitter.com/fjlopezpellicer"><img style="height:18px; width:18px" src="images/twitter.png" alt="HTML5 Icon"></a>
+            <a class="track" id="linkedin_pellicer" href="https://es.linkedin.com/in/franciscojlopezpellicer"><img style="height:18px; width:18px" src="images/linkedin.png"></a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+					</section>
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
