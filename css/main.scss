@@ -1492,6 +1492,15 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    border: none;
+}
+
+ul li a {
+	border-bottom: none;
+}
+
 /* Banner */
 
 	#banner {

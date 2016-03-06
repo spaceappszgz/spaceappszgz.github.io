@@ -1,20 +1,26 @@
 <!-- Header -->
 <header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
   <h1><a href="{{ site.baseurl }}/index.html">{{ site.title }}</a></h1>
-  <nav id="nav">
-    <ul>
-      <li>
-        <a href="#sponsors" class="scrolly"><span>Patrocinadores</span></a>
-      </li>
-      <li>
-        <a href="#colaboradores" class="scrolly"><span>Colaboradores</span></a>
-      </li>
-      <li>
-        <a href="#organizadores" class="scrolly"><span>Organizadores</span></a>
-      </li>
-      <li>
-        <a href="#map" class="scrolly"><span>Dónde</span></a>
-      </li>
-    </ul>
-  </nav>
+<nav class="navbar navbar-default navbar-fixed-top" style="background: transparent; border: none;">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse scrollspy" id="bs-example-navbar-collapse-1">
+            <ul  style="color: white;" class="nav navbar-nav navbar-right">
+                <li><a class="scroll" href="#sponsors">Patrocinadores</a></li>
+                <li><a class="scroll" href="#colaboradores">Colaboradores</a></li>
+                <li><a class="scroll" href="#organizadores">Organizadores</a></li>
+                <li><a class="scroll" href="#map">Dónde</a></li>
+            </ul>
+        </div>
+    </div>
 </header>
