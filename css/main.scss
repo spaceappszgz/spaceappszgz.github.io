@@ -1506,6 +1506,21 @@ ul li a {
 	border-bottom: none;
 }
 
+h3 {
+	font-size:25px;
+	@include breakpoint(small) {
+			font-size:12px;
+		}
+}
+
+.call-action {
+	font-size:12px;
+	@include breakpoint(small) {
+			font-size:12px;
+		}
+}
+
+
 /* Banner */
 
 	#banner {
@@ -1630,6 +1645,9 @@ ul li a {
 			}
 		}
 	}
+
+
+
 
 	body.is-loading {
 		#banner {
