@@ -1524,10 +1524,20 @@ h3 {
 .call-action {
 	font-size:15px;
 	@include breakpoint(small) {
-			font-size:12px;
+			font-size:10px;
 		}
 }
 
+.book{
+    font-family: 'Gentium Book Basic', serif;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+.sign{
+	margin-top:10%;
+}
 
 /* Banner */
 
