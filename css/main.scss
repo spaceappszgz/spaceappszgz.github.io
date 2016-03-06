@@ -1499,7 +1499,15 @@ $baseurl: '{{ site.baseurl }}/images';
     	color: white;
     	font-weight: bold;
     	font-size: 105%;
-    }
+    };
+
+    &:visited { 
+    	color: white;
+	};
+
+	&:active { 
+    	color: white;
+	};
 }
 
 ul li a {
@@ -1514,7 +1522,7 @@ h3 {
 }
 
 .call-action {
-	font-size:12px;
+	font-size:15px;
 	@include breakpoint(small) {
 			font-size:12px;
 		}
