@@ -518,6 +518,11 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	/*
+
+
+	*/
+
 /* Image */
 
 	.image {
@@ -1530,7 +1535,7 @@ h3 {
 
 .book{
     font-family: 'Gentium Book Basic', serif;
-    color: black;
+    color: white;
     font-size: 18px;
     text-align: left;
 }
@@ -1737,7 +1742,9 @@ h3 {
 		}
 	}
 
+
 /* Main */
+
 
 	#main {
 		> header {
