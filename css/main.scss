@@ -209,7 +209,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		text-align: right;
 	}
 
-	.circular {
+.circular {
   display: block;
   width: 150px;
   height: 150px;
@@ -222,6 +222,52 @@ $baseurl: '{{ site.baseurl }}/images';
   -webkit-border-radius: 99em;
   -moz-border-radius: 99em;
   border-radius: 99em;
+
+  @include breakpoint(small) {
+		width: 50px;
+ 		height: 50px;
+ 		margin-left:2px;
+ 		margin-right:0px;
+	}
+  }
+
+  .col-image {
+  		padding-left: 10px;
+
+  @include breakpoint(small) {
+		padding-left: 5%;
+		margin-right:0px;
+	}
+  }
+
+  .name-role{
+  		margin-bottom:1em !important; 
+  		padding-top:25px;
+
+	@include breakpoint(small) {
+		padding-top: 0px;
+		margin: 0px;
+		width: 80px;
+	}
+  }
+
+  .description-general{
+		padding-left: 20px;
+
+	@include breakpoint(small) {
+		padding-left: 1px;
+	}
+
+  }
+
+	.description {
+		font-size: 16px;
+   		color: white;
+    	text-align: left;
+
+	@include breakpoint(small) {
+		font-size: 8px;
+	}
   }
 
 /* Section/Article */
@@ -1534,18 +1580,26 @@ h3 {
 }
 
 .pat {
-	width: 100%;
+	width: 80%;
 	@include breakpoint(small) {
 				width: 100%;
 		}
 }
 
 #hero {
-	width: 100%;
+	width: 50%;
 	@include breakpoint(small) {
 				width: 50%;
 		}
 }
+
+.org{
+	width: 100%;
+	@include breakpoint(small) {
+				width: 80%;
+		}
+}
+
 
 
 .prom-video{
@@ -1564,8 +1618,11 @@ h3 {
 .book{
     font-family: 'Gentium Book Basic', serif;
     color: white;
-    font-size: 18px;
     text-align: left;
+
+	@include breakpoint(small) {
+		font-size: 14px;
+	}
 }
 
 .sign{
@@ -1924,9 +1981,11 @@ h3 {
 			#banner,
 			.wrapper.style4 {
 				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/don-quijote-de-la-mancha_V1.jpg")'));
+			    background-attachment: fixed;
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
+				text-align: center;
 			}
 
 			#footer {
