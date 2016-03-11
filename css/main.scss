@@ -251,8 +251,17 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
   }
 
+  .col-container{
+  	height: 400px;
+
+  	@include breakpoint(small) {
+		height: 350px;
+	}
+  }
+
   .description-general{
 		padding-left: 20px;
+		color:white;
 
 	@include breakpoint(small) {
 		padding-left: 1px;
