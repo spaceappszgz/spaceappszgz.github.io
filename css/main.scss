@@ -1536,7 +1536,14 @@ h3 {
 .pat {
 	width: 100%;
 	@include breakpoint(small) {
-				width: 60%;
+				width: 100%;
+		}
+}
+
+#hero {
+	width: 100%;
+	@include breakpoint(small) {
+				width: 50%;
 		}
 }
 
