@@ -1888,7 +1888,7 @@ h3 {
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/don-quijote-de-la-mancha.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/don-quijote-de-la-mancha_v1.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
