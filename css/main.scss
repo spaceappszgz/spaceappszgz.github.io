@@ -1619,7 +1619,7 @@ h3 {
 
 
 .prom-video{
-	width: 70%; 
+	width: 75%; 
 	height:350px; 
 	padding-left:5%;
 	font-size:15px;
@@ -1642,7 +1642,10 @@ h3 {
 }
 
 .sign{
-	margin-top:8%;
+	margin-top:10%;
+	@include breakpoint(small) {
+		margin-top:26%;
+	}
 }
 
 
