@@ -7,7 +7,6 @@ description: |
   23 y 24 de Abril
 owner: Space Apps Zaragoza
 first_published: 2016
-email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:
