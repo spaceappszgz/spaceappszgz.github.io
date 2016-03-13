@@ -1,6 +1,7 @@
 ---
 layout: default  
 ---
+<div class="container">
 <h1>Últimas entradas</h1>  
 {% for post in site.posts limit:4 %}
 <h2>  
@@ -11,3 +12,4 @@ layout: default
     {{ post.excerpt }}
 </p>  
 {% endfor %}
+</div>
