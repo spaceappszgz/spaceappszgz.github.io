@@ -1,43 +1,6 @@
 ---
 layout: landing
 ---
-<style>
-    #map {
-        width: 500px;
-        height: 400px;
-    }
-</style>
-<script>
-    function initMap() {
-        var myLatLng = {
-            lat: 41.659023,
-            lng: -0.906811
-        };
-        var mapDiv = document.getElementById('map');
-        var map = new google.maps.Map(mapDiv, {
-            center: myLatLng,
-            zoom: 16,
-            scrollwheel: false
-        });
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            title: 'Etopia'
-        });
-
-        map.set('styles', [{
-            "featureType": "all",
-            "elementType": "all",
-            "stylers": [{
-                "saturation": -100
-            }, {
-                "gamma": 0.5
-            }]
-        }]);
-
-        marker.setMap(map);
-    }
-</script>
 <!-- Banner -->
 <section id="banner">
     <div class="inner">
@@ -83,7 +46,7 @@ layout: landing
 </section>
 
 <!-- Two -->
-<section id="colaboradores" class="wrapper style1 special" style="background-color: transparent; padding-left: 5%; padding-right: 5%;">
+<section id="colaboradores" class="wrapper style4 special" style="background-color: transparent; padding-left: 5%; padding-right: 5%;">
          <header class="major">
             <h2 style="color: white">colaboradores<br/></h2>
         </header>
@@ -94,10 +57,10 @@ layout: landing
                 </div>
                 <div class="col-xs-3 col-md-2 description-general">
                     <div class="description name-role">
-                        <p>Javier Zarazaga<br/>Organizador</p>
+                        <p class="name-role-text">Javier Zarazaga<br/>Organizador</p>
                         <p>
-                            <a target="_blank" href="https://twitter.com/jazarso" class="icon fa-twitter"><span class="label">twitter</span></a>
-                            <a target="_blank" href="https://es.linkedin.com/in/fjzarazagasoria" class="icon fa-linkedin-square"><span class="label">linkedin-square</span></a>
+                            <a target="_blank" href="https://twitter.com/jazarso" class="icon fa-twitter"></a>
+                            <a target="_blank" href="https://es.linkedin.com/in/fjzarazagasoria" class="icon fa-linkedin-square"></a>
                         </p>
                     </div>
                 </div>
@@ -107,7 +70,7 @@ layout: landing
                 </div>
                 <div class="col-xs-3 col-md-2 description-general">
                     <div class="description name-role">
-                        <p>Alberto Virto<br/>Organizador</p>
+                        <p class="name-role-text">Alberto Virto<br/>Organizador</p>
                         <p>
                             <a target="_blank" href="https://es.linkedin.com/pub/alberto-virto/1a/281/591" class="icon fa-linkedin-square"><span class="label">linkedin-square</span></a>
                         </p>
@@ -119,20 +82,21 @@ layout: landing
                 </div>
                 <div class="col-xs-3 col-md-2 description-general">
                     <div class="description name-role">
-                        <p>Fco. Javier López<br/>Jurado</p>
+                        <p class="name-role-text">Fco. Javier López<br/>Jurado</p>
                         <p>
                             <a target="_blank" href="https://twitter.com/fjlopezpellicer" class="icon fa-twitter"><span class="label">twitter</span></a>
                             <a target="_blank" href="https://es.linkedin.com/in/franciscojlopezpellicer" class="icon fa-linkedin-square"><span class="label">linkedin-square</span></a>
                         </p>
                     </div>
                 </div>
-                <div class="col-xs-3 col-md-2  col-image">
+
+                <div class="col-xs-3 col-md-2 col-image">
                     <div class="circular" style="background-image: url('images/mr_vecino.jpg')">
                     </div>
                 </div>
                 <div class="col-xs-3 col-md-2 description-general">
                     <div class="description name-role">
-                        <p>Daniel Vecino<br/>Jurado</p>
+                        <p class="name-role-text">Daniel Vecino<br/>Jurado</p>
                         <p>
                             <a target="_blank" href="https://twitter.com/mrvecino" class="icon fa-twitter"><span class="label">twitter</span></a>
                             <a target="_blank" href="https://es.linkedin.com/in/danielvecinocastel/es" class="icon fa-linkedin-square"><span class="label">linkedin-square</span></a>
@@ -145,7 +109,7 @@ layout: landing
                 </div>
                 <div class="col-xs-3 col-md-2 description-general">
                     <div class="description name-role">
-                        <p>Alex Dantart<br/>Jurado</p>
+                        <p class="name-role-text">Alex Dantart<br/>Jurado</p>
                         <p>
                             <a target="_blank" href="https://twitter.com/dantart" class="icon fa-twitter"><span class="label">twitter</span></a>
                             <a target="_blank" href="https://es.linkedin.com/pub/alberto-virto/1a/281/591" class="icon fa-linkedin-square"><span class="label">linkedin-square</span></a>
@@ -158,7 +122,7 @@ layout: landing
                 </div>
                 <div class="col-xs-3 col-md-2 description-general">
                     <div class="description name-role">
-                        <p>Alberto Alcolea<br/>Mentor</p>
+                        <p class="name-role-text">Alberto Alcolea<br/>Mentor</p>
                         <p>
                             <a target="_blank" href="https://twitter.com/albertoalcolea" class="icon fa-twitter"><span class="label">twitter</span></a>
                             <a target="_blank" href="https://es.linkedin.com/in/albertoalcolea" class="icon fa-linkedin-square"><span class="label">linkedin-square</span></a>
@@ -174,9 +138,9 @@ layout: landing
             <h2 style="color: black">organizadores<br /></h2>
         </header>
         <div class="row">
-            <div class="col-xs-4 col-md-4"><a class="logo-link" href="https://eina.unizar.es/"><img class="org" src="images/org_unizar.png" /></a></div>
+            <div class="col-xs-4 col-md-4"><a class="logo-link" href="https://eina.unizar.es/"><img class="org" src="images/uz_logo.jpg" /></a></div>
             <div class="col-xs-4 col-md-4"><a class="logo-link" href="https://www.zaragoza.es/ciudad/etopia/"><img id="etopia-logo" class="org" src="images/etopia.png"/></a></div>
-            <div class="col-xs-4 col-md-4"><a class="logo-link" href="http://www.zaragoza.es/sedeelectronica/"><img class="org" src="images/org_ayto_zaragoza.jpg" /></a></div>
+            <div class="col-xs-4 col-md-4"><a class="logo-link" href="http://www.zaragoza.es/sedeelectronica/"><img class="org" src="images/ayto-zaragoza.png"/></a></div>
         </div>
     </div>
 </section>

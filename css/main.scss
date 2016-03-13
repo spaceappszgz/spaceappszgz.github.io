@@ -1536,11 +1536,15 @@ h3 {
 	padding-top: 8%;
 }
 
+.social-buttons-col{
+	padding-top: 1%;
+}
+
 #etopia-logo {
-	padding-top:5%;
-	width: 70%;
+	padding-top:1%;
+	width: 85%;
 	@include breakpoint(small) {
-				width: 50%;
+				width: 70%;
 		}
 }
 
@@ -1574,7 +1578,7 @@ h3 {
   }
 
   .col-image {
-  		padding-left: 10px;
+  		padding-left: 5px;
 
   @include breakpoint(small) {
 		padding-left: 5%;
@@ -1587,8 +1591,15 @@ h3 {
 	color: white;
 }
 
+
+.name-role-text{
+	@include breakpoint(small) {
+		margin-bottom:2%;
+	}
+  }
+
   .name-role{
-  		margin-bottom:1em !important; 
+  		margin-bottom:1em !important;
   		padding-top:25px;
 
 	@include breakpoint(small) {
