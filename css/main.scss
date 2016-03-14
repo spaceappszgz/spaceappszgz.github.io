@@ -517,8 +517,13 @@ $baseurl: '{{ site.baseurl }}/images';
 	font-size: 30px;
 }
 
+.publish{
+	font-size: 15px;
+}
+
 .post-div{
 	margin-bottom:50px;
+	padding: 0% 15% 0% 8%;
 }
 
 .post-body{
@@ -1698,7 +1703,7 @@ h3 {
 }
 
 .book{
-    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Gentium Book Basic', sans-serif;
     color: white;
     text-align: left;
 
