@@ -524,13 +524,25 @@ $baseurl: '{{ site.baseurl }}/images';
 .post-div{
 	margin-bottom:50px;
 	padding: 0% 15% 0% 8%;
+	@include breakpoint(small) {
+			padding: 0% 2% 0% 2%;
+		}
 }
 
 .post-body{
 	font-family: 'Gentium Book Basic', sans-serif;
+	font-size: 15px;
+	@include breakpoint(small) {
+			font-size: 10px;
+		}
+}
+
+.post-body img{
+	width: 25%;
 }
 
 .post-title{
+	font-family: 'Gentium Book Basic', serif;
 	color: black;
 	text-align: center;
 	margin-top: 50px;
