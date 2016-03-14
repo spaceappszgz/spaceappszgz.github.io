@@ -521,9 +521,17 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 }
 
+.blog-come-back{
+	font-size: 10px;
+}
+
 .publish{
 	font-size: 15px;
 	font-family: 'Gentium Book Basic', serif;
+	color: #272822;
+	@include breakpoint(small) {
+			font-size: 13px;
+		}
 
 }
 
@@ -533,6 +541,14 @@ $baseurl: '{{ site.baseurl }}/images';
 	@include breakpoint(small) {
 			padding: 0% 2% 0% 2%;
 			margin-bottom:10px;
+		}
+}
+
+.blog-link{
+	margin-top: 1%;
+	font-size: 15px;
+	@include breakpoint(small) {
+			font-size: 10px;
 		}
 }
 

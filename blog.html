@@ -4,9 +4,9 @@ layout: default
 <div class="container">
 <h1 class="blog-title">El blog de <br/><br/> Space Apps Zaragoza</h1>  
 {% for post in site.posts limit:15 %}
+<!--<a href="{{ site.baseurl }}"><p class="blog-come-back">Volver a la Web</p></a>-->
 <div class="post-div">
 <h2 class="post-title">  
-    <!--<a href="" rel="bookmark" title="Permanent link to ">{{ post.title }}</a>-->
 {{ post.title }}
 </h2>  
 <span class="publish"> Publicado: {{ post.date | date: "%d-%m-%Y"}}</span>  
