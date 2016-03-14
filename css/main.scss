@@ -503,11 +503,6 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
-	/*
-
-
-	*/
-
 /* Blog */
 #blog-wrapper {
 	opacity: 1;
@@ -516,15 +511,31 @@ $baseurl: '{{ site.baseurl }}/images';
 	color: black;
 }
 
+.blog-title{
+	color: black;
+	text-align: center;
+	font-size: 30px;
+}
+
+.post-div{
+	margin-bottom:50px;
+}
+
+.post-body{
+	font-family: 'Gentium Book Basic', sans-serif;
+}
+
 .post-title{
 	color: black;
+	text-align: center;
+	margin-top: 50px;
 }
 
 hr {
     display: block;
-    height: 1px;
+    height: 2px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #000;
     margin: 1em 0;
     padding: 0; 
 }
