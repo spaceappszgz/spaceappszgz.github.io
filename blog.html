@@ -2,14 +2,14 @@
 layout: default  
 ---
 <div class="container">
-<h1 class="blog-title">El Blog de Space Apps Zaragoza</h1>  
+<h1 class="blog-title">El blog de <br/><br/> Space Apps Zaragoza</h1>  
 {% for post in site.posts limit:15 %}
 <div class="post-div">
 <h2 class="post-title">  
     <!--<a href="" rel="bookmark" title="Permanent link to ">{{ post.title }}</a>-->
 {{ post.title }}
 </h2>  
-<span class="publish"> Publicado: {{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</span>  
+<span class="publish"> Publicado: {{ post.date | date: "%d-%m-%Y"}}</span>  
 <p class="post-body">  
     {{ post.excerpt }}
 </p>
