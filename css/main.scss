@@ -1655,7 +1655,7 @@ h3 {
   width: 150px;
   height: 150px;
   margin-left:auto;
-  margin-right:auto;
+  margin-right:1px;
   margin-top: 10%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1688,21 +1688,12 @@ h3 {
 
 
 .name-role-text{
+	    margin-bottom: 5px;
 	@include breakpoint(small) {
 		margin-bottom:2%;
 	}
   }
 
-  .name-role{
-  		margin-bottom:1em !important;
-  		padding-top:25px;
-
-	@include breakpoint(small) {
-		padding-top: 0px;
-		margin: 0px;
-		width: 80px;
-	}
-  }
 
   .map-iframe{
   	height: 300px;
@@ -1720,23 +1711,22 @@ h3 {
   }
 
   .description-general{
-		padding-left: 20px;
 		color:white;
+		font-size: 16px;
+   		color: white;
+    	text-align: center;
+    	margin-bottom:1em !important;
+  		padding-top:30px;
+  		width:90px;
 
 	@include breakpoint(small) {
 		padding-left: 1px;
-	}
-
-  }
-
-	.description {
-		font-size: 16px;
-   		color: white;
-    	text-align: left;
-
-	@include breakpoint(small) {
 		font-size: 8px;
+		padding-top: 0px;
+		margin: 0px;
+		width: 70px;
 	}
+
   }
 
 .prom-video{
