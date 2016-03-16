@@ -13,8 +13,8 @@
         {
             "properties": {
                 "style": {
-                    "graphicWidth": 45,
-                    "graphicHeight": 45,
+                    "graphicWidth": 65,
+                    "graphicHeight": 65,
                     "externalGraphic": "https://raw.githubusercontent.com/sazgz/sazgz.github.io/master/images/map_logo_v2.png",
                     "graphicXOffset": -22,
                     "graphicYOffset": -45
