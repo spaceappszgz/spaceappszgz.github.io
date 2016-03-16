@@ -15,7 +15,7 @@
                 "style": {
                     "graphicWidth": 75,
                     "graphicHeight": 75,
-                    "externalGraphic": "https://raw.githubusercontent.com/sazgz/sazgz.github.io/master/images/map_logo_v2.png",
+                    "externalGraphic": "https://raw.githubusercontent.com/sazgz/sazgz.github.io/master/images/Ganymede-moon.jpg",
                     "graphicXOffset": -22,
                     "graphicYOffset": -45
                 },
