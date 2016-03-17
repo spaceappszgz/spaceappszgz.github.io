@@ -3,10 +3,11 @@ layout: default
 title: Cervantes
 ---
 <div class="container">
-<h1 class="blog-title">El blog de <br/><br/> Space Apps Zaragoza</h1>  
+<h1 class="blog-title">Homenaje a <br/><br/> Miguel de Cervantes</h1>  
 {% for post in site.posts limit:15 %}
 <!--<a href="{{ site.baseurl }}"><p class="blog-come-back">Volver a la Web</p></a>-->
-<div class="post-div">
+{% if post.title == 'Cervantes' %}
+  <div class="post-div">
 <h2 class="post-title">  
 {{ post.title }}
 </h2>  
@@ -16,5 +17,6 @@ title: Cervantes
 </p>
 </div>
 <hr />
+{% endif %}
 {% endfor %}
 </div>
