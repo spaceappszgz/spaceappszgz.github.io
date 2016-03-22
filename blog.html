@@ -6,8 +6,8 @@ title: Blog
 <h1 class="blog-title">El blog de <br/><br/> Space Apps Zaragoza</h1>  
 {% for post in site.posts limit:15 %}
 <!--<a href="{{ site.baseurl }}"><p class="blog-come-back">Volver a la Web</p></a>-->
+{% if post.categories.size == 0 %}
 <div class="post-div">
-{% if post.title != 'Cervantes' %}
 <h2 class="post-title">  
 {{ post.title }}
 </h2>  
@@ -16,7 +16,7 @@ title: Blog
     {{ post.excerpt }}
 </p>
 </div>
-{% endif %}
 <hr />
+{% endif %}
 {% endfor %}
 </div>
