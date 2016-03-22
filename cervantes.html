@@ -6,7 +6,7 @@ title: Cervantes
 <h1 class="blog-title">Homenaje a <br/><br/> Miguel de Cervantes</h1>  
 {% for post in site.posts limit:15 %}
 <!--<a href="{{ site.baseurl }}"><p class="blog-come-back">Volver a la Web</p></a>-->
-{% if post.title == 'Cervantes' %}
+{% if post.categories contains 'cervantes' %}
   <div class="post-div">
 <h2 class="post-title">  
 {{ post.title }}
