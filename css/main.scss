@@ -581,6 +581,10 @@ $baseurl: '{{ site.baseurl }}/images';
   width: 800px;
   height: 350px;
   margin:0 auto;
+  @include breakpoint(medium) {
+	width: 450px;
+ 	height: 200px;
+  }
   @include breakpoint(small) {
 	width: 300px;
  	height: 150px;
