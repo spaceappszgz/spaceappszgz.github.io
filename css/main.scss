@@ -517,6 +517,16 @@ $baseurl: '{{ site.baseurl }}/images';
 }
 
 .blog-title{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Gentium Book Basic', sans-serif;
+	@include breakpoint(small) {
+			font-size: 18px;
+		}
+}
+
+.cervantes-title{
 	color: black;
 	text-align: center;
 	font-size: 30px;
@@ -564,6 +574,32 @@ $baseurl: '{{ site.baseurl }}/images';
 			font-size: 10px;
 		}
 }
+
+
+#cf {
+  position:relative;
+  width: 800px;
+  height: 350px;
+  margin:0 auto;
+  @include breakpoint(small) {
+	width: 300px;
+ 	height: 150px;
+  }
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
 
 .blog-image{
 	width: 100%;
