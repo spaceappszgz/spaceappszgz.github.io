@@ -12,6 +12,7 @@ title: Blog
 {% if post.categories.size == 0 %}
 <div class="post-div">
 <h2 class="post-title">  
+<!--<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>-->
 {{ post.title }}
 </h2>  
 <span class="publish"> Publicado: {{ post.date | date: "%d-%m-%Y"}}</span>  
