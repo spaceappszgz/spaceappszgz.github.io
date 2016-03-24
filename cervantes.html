@@ -3,11 +3,11 @@ layout: default
 title: Cervantes
 ---
 <div class="container">
-<h1 class="cervantes-title">Homenaje a <br/><br/> Miguel de Cervantes</h1>  
+<h1 class="cervantes-title">Homenaje a <br/><br/> Miguel de Cervantes</h1>
+<h3 class="cervantes-subtitle">por <a href="http://sazgz.com">Space Apps Zaragoza</a></h3>
 {% for post in site.posts limit:15 %}
-<!--<a href="{{ site.baseurl }}"><p class="blog-come-back">Volver a la Web</p></a>-->
 {% if post.categories contains 'cervantes' %}
-  <div class="post-div">
+<div class="post-div">
 <h2 class="post-title">  
 {{ post.title }}
 </h2>  

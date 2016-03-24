@@ -536,6 +536,16 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 }
 
+.cervantes-subtitle{
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Gentium Book Basic', sans-serif;
+	@include breakpoint(small) {
+			font-size: 12px;
+		}
+}
+
 .blog-come-back{
 	font-size: 10px;
 }
