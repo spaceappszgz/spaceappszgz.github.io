@@ -623,6 +623,49 @@ $baseurl: '{{ site.baseurl }}/images';
   opacity:0;
 }
 
+#cf-la {
+  position:absolute;
+  margin:0 auto;
+  width: 100%;
+}
+
+
+#cf-la div {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf-la div.transparent {
+  opacity:0;
+}
+
+.social-la {
+	cursor:pointer;
+	z-index: 10;
+	position: absolute;
+}
+
+#text-la{
+	font-size: 10px;
+	line-height: 150%;
+	@include breakpoint(small) {
+		font-size: 3px;
+		line-height: 140%;
+	}
+}
+
+#name-la{
+	font-size:12px;
+	line-height: 150%;
+	@include breakpoint(small) {
+		font-size: 3px;
+		line-height: 140%;
+	}
+}
 
 .blog-image{
 	width: 100%;
@@ -1687,6 +1730,17 @@ h3 {
 		}
 }
 
+#iny{
+	padding-top:10%;
+}
+
+#geoslab {
+	width: 50%;
+	@include breakpoint(small) {
+				width: 55%;
+		}
+}
+
 #ibercivis-logo{
 	padding-top: 8%;
 }
@@ -1784,6 +1838,7 @@ h3 {
 		font-size: 5px;
 		padding-top: 1%;
 		margin: 0px;
+		min-height: 69px;
 	}
 
   }
