@@ -652,6 +652,7 @@ $baseurl: '{{ site.baseurl }}/images';
 #text-la{
 	font-size: 10px;
 	line-height: 150%;
+	cursor:pointer;
 	@include breakpoint(small) {
 		font-size: 3px;
 		line-height: 140%;

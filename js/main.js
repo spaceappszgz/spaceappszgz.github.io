@@ -117,5 +117,10 @@ $(function() {
   	$("#cf-la div.top-la").toggleClass("transparent");
 });
 
+  $("#text-la").click(function() {
+  	$("#cf-la div.bottom-la").toggleClass("transparent");
+  	$("#cf-la div.top-la").toggleClass("transparent");
+});
+
 
 })(jQuery);

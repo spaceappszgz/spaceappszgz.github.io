@@ -92,6 +92,7 @@ td:last-child {
 
 th.text-left {
   text-align: left;
+  width: 137px;
 }
 
 th.text-center {
@@ -119,15 +120,15 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) { 
 
   td{
-    font-size:12px;
+    font-size:10px;
   }
 
   tr{
-    font-size:12px;
+    font-size:10px;
   }
 
   th {
-   font-size:14px;
+   font-size:10px;
   }
 
 }
