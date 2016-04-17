@@ -1729,10 +1729,25 @@ h3 {
 }
 
 #hero {
-	width: 40%;
+	width: 50%;
 	@include breakpoint(small) {
 				width: 50%;
 		}
+}
+
+#criollo {
+	width: 60%;
+	@include breakpoint(small) {
+				width: 50%;
+		}
+}
+
+#i3a {
+	padding-top: 10%;
+}
+
+#dlabs {
+	padding-top: 5%;
 }
 
 #iny{
