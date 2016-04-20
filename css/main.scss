@@ -651,7 +651,8 @@ $baseurl: '{{ site.baseurl }}/images';
 
 #text-la{
 	font-size: 10px;
-	line-height: 150%;
+	text-align: left;
+	line-height: 120%;
 	cursor:pointer;
 	@include breakpoint(small) {
 		font-size: 3px;
@@ -660,8 +661,9 @@ $baseurl: '{{ site.baseurl }}/images';
 }
 
 #name-la{
-	font-size:12px;
-	line-height: 150%;
+	font-size:10px;
+	line-height: 120%;
+	text-align: left;
 	@include breakpoint(small) {
 		font-size: 3px;
 		line-height: 140%;
@@ -669,7 +671,7 @@ $baseurl: '{{ site.baseurl }}/images';
 }
 
 .top-la{
-	padding-left: 20%;
+	padding-left: 10%;
 }
 
 .blog-image{
