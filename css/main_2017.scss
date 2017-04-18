@@ -43,12 +43,12 @@ $baseurl: '{{ site.baseurl }}/images';
         background: #070507;
         background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
 
-        /* &.is-loading {
+         &.is-loading {
             *, *:before, *:after {
                 @include vendor('animation', 'none !important');
                 @include vendor('transition', 'none !important');
             }
-        }*/
+        }
     }
 
     body, input, select, textarea {
@@ -1988,8 +1988,8 @@ h3 {
         }
 
         .more {
-            /*@include vendor('transition', ('transform 0.75s ease', 'opacity 0.75s ease'));
-            @include vendor('transition-delay', '3.5s');*/
+            @include vendor('transition', ('transform 0.75s ease', 'opacity 0.75s ease'));
+            @include vendor('transition-delay', '3.5s');
             @include vendor('transform', 'translateY(0)');
             border: none;
             bottom: 0;
@@ -2025,9 +2025,9 @@ h3 {
         }
 
         &:after {
-            /*@include vendor('pointer-events', 'none');
+            @include vendor('pointer-events', 'none');
             @include vendor('transition', 'opacity #{_duration(fadein)} ease-in-out');
-            @include vendor('transition-delay', '1.25s');*/
+            @include vendor('transition-delay', '1.25s');
             content: '';
             /*background: _palette(bg);*/
             background: #070507;
