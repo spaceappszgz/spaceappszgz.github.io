@@ -1588,7 +1588,7 @@ b{
 /* Header */
 
     #header {
-        /*@include vendor('transition', 'background-color #{_duration(transitions)} ease');*/
+        @include vendor('transition', 'background-color #{_duration(transitions)} ease');
         /*background: _palette(bg);*/
         background: #1e5799; /* Old browsers */
 background: -moz-linear-gradient(top, #1e5799 0%, #7db9e8 100%); /* FF3.6-15 */
@@ -1603,7 +1603,7 @@ background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 100%); /* W3C, IE10+, 
         z-index: _misc(z-index-base);
 
         h1 {
-            /*@include vendor('transition', 'opacity #{_duration(transitions)} ease');*/
+            @include vendor('transition', 'opacity #{_duration(transitions)} ease');
             height: inherit;
             left: 1.25em;
             line-height: inherit;
@@ -1948,7 +1948,7 @@ h3 {
 
         h2 {
             @include vendor('transform', 'scale(1)');
-            /*@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));*/
+            @include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
             display: inline-block;
             font-size: 2.75em;
             opacity: 1;
@@ -1957,8 +1957,8 @@ h3 {
             z-index: 1;
 
             &:before, &:after {
-                /*@include vendor('transition', 'width 0.85s ease');
-                @include vendor('transition-delay', '0.25s');*/
+                @include vendor('transition', 'width 0.85s ease');
+                @include vendor('transition-delay', '0.25s');
                 background: _palette(fg-bold);
                 content: '';
                 display: block;
@@ -2264,7 +2264,7 @@ h3 {
 
     body.landing {
         #page-wrapper {
-            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ISS-40_Iberian_Peninsula_at_night.png")'));
+            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ISS-40_Iberian_Peninsula_at_night.jpg")'));
             background-attachment: fixed;
             background-position: center center;
             background-repeat: no-repeat;
@@ -2285,7 +2285,7 @@ h3 {
 
             #banner,
             .wrapper.style4 {
-                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ISS-40_Iberian_Peninsula_at_night.png")'));
+                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ISS-40_Iberian_Peninsula_at_night.jpg")'));
                 background-attachment: fixed;
                 background-position: center center;
                 background-repeat: no-repeat;
