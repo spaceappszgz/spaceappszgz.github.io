@@ -2264,7 +2264,7 @@ h3 {
 
     body.landing {
         #page-wrapper {
-            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ISS-40_Iberian_Peninsula_at_night.jpg")'));
+            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ISS-40_Iberian_Peninsula_at_night.png")'));
             background-attachment: fixed;
             background-position: center center;
             background-repeat: no-repeat;
@@ -2285,7 +2285,7 @@ h3 {
 
             #banner,
             .wrapper.style4 {
-                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ISS-40_Iberian_Peninsula_at_night.jpg")'));
+                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ISS-40_Iberian_Peninsula_at_night.png")'));
                 background-attachment: fixed;
                 background-position: center center;
                 background-repeat: no-repeat;
