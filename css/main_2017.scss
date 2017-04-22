@@ -1738,10 +1738,11 @@ h3 {
         }
 }
 
-#hero {
-    width: 50%;
+
+#geoslab-logo {
+    width: 60%;
     @include breakpoint(small) {
-                width: 50%;
+                width: 60%;
         }
 }
 
