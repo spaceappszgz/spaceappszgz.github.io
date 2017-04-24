@@ -1746,6 +1746,14 @@ h3 {
         }
 }
 
+#pizza {
+    width: 42%;
+    @include breakpoint(small) {
+                width: 45%;
+        }
+}
+
+
 #criollo {
     width: 60%;
     @include breakpoint(small) {
