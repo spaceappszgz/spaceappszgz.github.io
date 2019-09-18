@@ -1591,9 +1591,9 @@ b{
         @include vendor('transition', 'background-color #{_duration(transitions)} ease');
         /*background: _palette(bg);*/
         background: #5536c4; /* Old browsers */
-background: -moz-linear-gradient(top, #033d01 0%, #98c497 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #033d01 0%,#98c497 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #033d01 0%,#98c497 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(top, #7c8087 0%, #494b4f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #7c8087 0%,#494b4f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #7c8087 0%,#494b4f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         height: 3em;
         left: 0;
         line-height: 3em;
@@ -1816,8 +1816,8 @@ h3 {
 
 
 .section-programa {
-    background-color: #024c02 !important;
-    background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");
+    background-color: #adafb3 !important;
+    background-image: url("https://www.transparenttextures.com/patterns/mocha-grunge.png");
 }
 
 
