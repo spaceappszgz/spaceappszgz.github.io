@@ -31,7 +31,7 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
-
+.jekyll-cache
 # Thumbnails
 ._*
 
