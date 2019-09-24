@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$baseurl: '{{ site.baseurl }}/images';
+$baseurl: '{{ site.baseurl }}/images/sazgz';
 
 @import 'libs/vars_2017';
 @import 'libs/functions';
@@ -1820,7 +1820,7 @@ h3 {
 
 
 .section-programa {
-    background-image: url("#{$baseurl}/sazgz/footstep.jpg");
+    background-image: url("#{$baseurl}/footstep.jpg");
     background-color: #adafb3 !important;
     //background-image: url("https://www.transparenttextures.com/patterns/mocha-grunge.png");
 }
@@ -2275,7 +2275,7 @@ h3 {
 
     body.landing {
         #page-wrapper {
-            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/sazgz/s1-1920.jpg")'));
+            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/s1-1920.jpg")'));
             background-attachment: fixed;
             background-position: center center;
             background-repeat: no-repeat;
@@ -2296,7 +2296,7 @@ h3 {
 
             #banner,
             .wrapper.style4 {
-                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/sazgz/s1-1920.jpg")'));
+                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/s1-1920.jpg")'));
                 background-attachment: fixed;
                 background-position: center center;
                 background-repeat: no-repeat;
