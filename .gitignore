@@ -32,6 +32,7 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 .jekyll-cache
+.jekyll-cache/
 # Thumbnails
 ._*
 
