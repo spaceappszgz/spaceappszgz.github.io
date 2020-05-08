@@ -40,8 +40,12 @@ $baseurl: '{{ site.baseurl }}/images/';
 
     body {
         /*background: _palette(bg);*/
-        background: #070507;
-        background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+        
+        background: rgb(5,4,4);
+background: -moz-linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 62%, rgba(179,11,43,1) 82%, rgba(5,0,1,1) 99%);
+background: -webkit-linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 62%, rgba(179,11,43,1) 82%, rgba(5,0,1,1) 99%);
+background: linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 62%, rgba(179,11,43,1) 82%, rgba(5,0,1,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#050404",endColorstr="#050001",GradientType=1);
     }
 
     body, input, select, textarea {
@@ -1594,10 +1598,11 @@ b{
     #header {
         @include vendor('transition', 'background-color #{_duration(transitions)} ease');
         /*background: _palette(bg);*/
-        background: #5536c4; /* Old browsers */
-background: -moz-linear-gradient(top, #7c8087 0%, #494b4f 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #7c8087 0%,#494b4f 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #7c8087 0%,#494b4f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: rgb(225,225,232);
+background: -moz-linear-gradient(90deg, rgba(225,225,232,1) 4%, rgba(96,14,30,0.6068802521008403) 44%);
+background: -webkit-linear-gradient(90deg, rgba(225,225,232,1) 4%, rgba(96,14,30,0.6068802521008403) 44%);
+background: linear-gradient(90deg, rgba(225,225,232,1) 4%, rgba(96,14,30,0.6068802521008403) 44%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e1e1e8",endColorstr="#600e1e",GradientType=1);
         height: 3em;
         left: 0;
         line-height: 3em;
@@ -1952,9 +1957,9 @@ h3 {
 }
 
 .sign{
-    margin-top:30%;
+    margin-top:35%;
     @include breakpoint(small) {
-        margin-top:26%;
+        margin-top:35%;
     }
 }
 
@@ -2271,7 +2276,7 @@ h3 {
             background-attachment: fixed;
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: 20%;
+            
             padding-top: 0;
         }
 
