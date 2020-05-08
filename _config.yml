@@ -4,9 +4,9 @@
 # Site settings
 title: Space Apps Zaragoza
 description: |
-  19 y 20 de Octubre
+  30 y 31 de mayo
 owner: Space Apps Zaragoza
-first_published: 2019
+first_published: 2020
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:

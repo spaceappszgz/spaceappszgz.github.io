@@ -1809,7 +1809,7 @@ h3 {
 
 .what-is {
     background-color: #000000 !important;
-    background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+    background-image: url("https://www.transparenttextures.com/patterns/strange-bullseyes.png");
 }
 
 .section-colaboradores {
@@ -1943,7 +1943,7 @@ h3 {
 .book{
     font-family: 'Roboto', sans-serif;
     color: white;
-    text-align: left;
+    text-align: justify;
     font-size: larger;
 
     @include breakpoint(small) {
@@ -1952,7 +1952,7 @@ h3 {
 }
 
 .sign{
-    margin-top:10%;
+    margin-top:30%;
     @include breakpoint(small) {
         margin-top:26%;
     }
