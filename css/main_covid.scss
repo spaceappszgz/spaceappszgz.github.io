@@ -40,11 +40,10 @@ $baseurl: '{{ site.baseurl }}/images/';
 
     body {
         /*background: _palette(bg);*/
-        
         background: rgb(5,4,4);
-background: -moz-linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 62%, rgba(179,11,43,1) 82%, rgba(5,0,1,1) 99%);
-background: -webkit-linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 62%, rgba(179,11,43,1) 82%, rgba(5,0,1,1) 99%);
-background: linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 62%, rgba(179,11,43,1) 82%, rgba(5,0,1,1) 99%);
+background: -moz-linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 78%, rgba(5,0,1,1) 99%);
+background: -webkit-linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 78%, rgba(5,0,1,1) 99%);
+background: linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 78%, rgba(5,0,1,1) 99%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#050404",endColorstr="#050001",GradientType=1);
     }
 
