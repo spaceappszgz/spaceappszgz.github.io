@@ -2294,9 +2294,9 @@ h3 {
             .wrapper.style4 {
                 @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0))', 'url("#{$baseurl}/logos_COVID-2x.width-500.png")'));
                 background-attachment: fixed;
-                background-position: 50% 10%;
+                background-position: 50% 8%;
                 background-repeat: no-repeat;
-                background-size: 40% 18%;
+                background-size: 35% 20%;
                 text-align: center;
 
             }
