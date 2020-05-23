@@ -1754,6 +1754,14 @@ h3 {
         }
 }
 
+#hiberus-logo {
+    margin-top: 25%;
+    width: 85%;
+    @include breakpoint(small) {
+                width: 85%;
+        }
+}
+
 #pizza {
     width: 42%;
     @include breakpoint(small) {
