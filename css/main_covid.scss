@@ -1755,7 +1755,7 @@ h3 {
 }
 
 #hiberus-logo {
-    margin-top: 25%;
+    margin-top: 18%;
     width: 65%;
     @include breakpoint(small) {
                 width: 85%;
@@ -1763,9 +1763,9 @@ h3 {
 }
 
 #tecnara-logo {
-    width: 55%;
+    width: 50%;
     @include breakpoint(small) {
-                width: 85%;
+                width: 75%;
         }
 }
 
@@ -1785,7 +1785,8 @@ h3 {
 }
 
 #i3a {
-    padding-top: 7%;
+    padding-top: 18%;
+    width: 110%;
 }
 
 #geoslab {
