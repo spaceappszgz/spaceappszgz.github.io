@@ -1762,6 +1762,14 @@ h3 {
         }
 }
 
+#ceu-logo {
+    padding-top: 8%;
+    width: 120%;
+    @include breakpoint(small) {
+                width: 100%;
+        }
+}
+
 #imascono-logo {
     width: 55%;
     @include breakpoint(small) {
@@ -1817,7 +1825,7 @@ h3 {
 }
 
 #etopia-logo {
-    padding-top: 18%;
+    padding-top: 10%;
     width: 75%;
     @include breakpoint(small) {
                 width: 90%;
