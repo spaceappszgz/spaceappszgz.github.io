@@ -40,11 +40,15 @@ $baseurl: '{{ site.baseurl }}/images/';
 
     body {
         /*background: _palette(bg);*/
-        background: rgb(5,4,4);
-background: -moz-linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 78%, rgba(5,0,1,1) 99%);
-background: -webkit-linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 78%, rgba(5,0,1,1) 99%);
-background: linear-gradient(90deg, rgba(5,4,4,1) 0%, rgba(122,21,21,1) 24%, rgba(51,3,10,1) 78%, rgba(5,0,1,1) 99%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#050404",endColorstr="#050001",GradientType=1);
+        background: white;
+        background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+
+         &.is-loading {
+            *, *:before, *:after {
+                @include vendor('animation', 'none !important');
+                @include vendor('transition', 'none !important');
+            }
+        }
     }
 
     body, input, select, textarea {
@@ -213,6 +217,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#050404",endCo
         &.special {
             text-align: center;
         }
+    }
+
+    .site-title {
+        margin-top:6%;
+        color: black;
     }
 
     header {
@@ -1597,11 +1606,11 @@ b{
     #header {
         @include vendor('transition', 'background-color #{_duration(transitions)} ease');
         /*background: _palette(bg);*/
-        background: rgb(225,225,232);
-background: -moz-linear-gradient(90deg, rgba(225,225,232,1) 4%, rgba(96,14,30,0.6068802521008403) 44%);
-background: -webkit-linear-gradient(90deg, rgba(225,225,232,1) 4%, rgba(96,14,30,0.6068802521008403) 44%);
-background: linear-gradient(90deg, rgba(225,225,232,1) 4%, rgba(96,14,30,0.6068802521008403) 44%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e1e1e8",endColorstr="#600e1e",GradientType=1);
+        background: rgb(251,251,251);
+background: -moz-linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(7,51,44,1) 50%);
+background: -webkit-linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(7,51,44,1) 50%);
+background: linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(7,51,44,1) 50%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbfbfb",endColorstr="#07332c",GradientType=1);
         height: 3em;
         left: 0;
         line-height: 3em;
@@ -1734,6 +1743,7 @@ h3 {
 
 .call-action {
     font-size:15px;
+    color: black;
     @include breakpoint(small) {
             font-size:10px;
         }
@@ -1754,44 +1764,6 @@ h3 {
         }
 }
 
-#hiberus-logo {
-    margin-top: 18%;
-    width: 65%;
-    @include breakpoint(small) {
-                width: 85%;
-        }
-}
-
-#ceu-logo {
-    padding-top: 8%;
-    width: 120%;
-    @include breakpoint(small) {
-                width: 130%;
-        }
-}
-
-#imascono-logo {
-    width: 55%;
-    @include breakpoint(small) {
-                width: 65%;
-        }
-}
-
-#tecnara-logo {
-    width: 50%;
-    @include breakpoint(small) {
-                width: 75%;
-        }
-}
-
-#pizza {
-    width: 42%;
-    @include breakpoint(small) {
-                width: 45%;
-        }
-}
-
-
 #criollo {
     width: 60%;
     @include breakpoint(small) {
@@ -1800,8 +1772,7 @@ h3 {
 }
 
 #i3a {
-    padding-top: 18%;
-    width: 110%;
+    padding-top: 7%;
 }
 
 #geoslab {
@@ -1812,8 +1783,12 @@ h3 {
 }
 
 
-#ibercivis-mineco-logo{
-    padding-top: 8%;
+#ibercivis-logo{
+    padding-top: 10%;
+}
+
+#mineco-logo{
+    padding-top: 10%;
 }
 
 #iaaa-logo{
@@ -1825,10 +1800,9 @@ h3 {
 }
 
 #etopia-logo {
-    padding-top: 10%;
     width: 75%;
     @include breakpoint(small) {
-                width: 90%;
+                width: 70%;
         }
 }
 
@@ -1841,7 +1815,7 @@ h3 {
 
 .what-is {
     background-color: #000000 !important;
-    background-image: url("https://www.transparenttextures.com/patterns/strange-bullseyes.png");
+    background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
 }
 
 .section-colaboradores {
@@ -1965,6 +1939,10 @@ h3 {
         }
 }
 
+.event-date{
+    color:black;
+}
+
 .social-logos{
     font-size:18px;
     @include breakpoint(small) {
@@ -1975,8 +1953,7 @@ h3 {
 .book{
     font-family: 'Roboto', sans-serif;
     color: white;
-    text-align: justify;
-    font-size: larger;
+    text-align: left;
 
     @include breakpoint(small) {
         font-size: 14px;
@@ -1984,9 +1961,10 @@ h3 {
 }
 
 .sign{
-    margin-top:35%;
+    margin-top:4%;
+    color: black;
     @include breakpoint(small) {
-        margin-top:35%;
+        margin-top:20%;
     }
 }
 
@@ -2114,6 +2092,29 @@ h3 {
 
             .more {
                 display: none;
+            }
+        }
+    }
+
+
+    body.is-loading {
+        #banner {
+            h2 {
+                @include vendor('transform', 'scale(0.95)');
+                opacity: 0;
+
+                &:before, &:after {
+                    width: 0;
+                }
+            }
+
+            .more {
+                @include vendor('transform', 'translateY(8.5em)');
+                opacity: 0;
+            }
+
+            &:after {
+                opacity: 1;
             }
         }
     }
@@ -2299,11 +2300,11 @@ h3 {
 
     body.landing {
         #page-wrapper {
-            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0))', 'url("#{$baseurl}/logos_COVID-2x.width-500.png")'));
+            /*@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/s1-1920.jpg")'));*/
             background-attachment: fixed;
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: 20%;
+            background-size: cover;
             padding-top: 0;
         }
 
@@ -2320,13 +2321,12 @@ h3 {
 
             #banner,
             .wrapper.style4 {
-                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0))', 'url("#{$baseurl}/logos_COVID-2x.width-500.png")'));
+                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/s1-1920.jpg")'));
                 background-attachment: fixed;
-                background-position: 50% 8%;
+                background-position: center center;
                 background-repeat: no-repeat;
-                background-size: 35% 20%;
+                background-size: cover;
                 text-align: center;
-
             }
 
             #footer {
