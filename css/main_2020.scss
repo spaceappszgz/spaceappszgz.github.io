@@ -41,7 +41,6 @@ $baseurl: '{{ site.baseurl }}/images/';
     body {
         /*background: _palette(bg);*/
         background: white;
-        background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
 
          &.is-loading {
             *, *:before, *:after {
@@ -2067,7 +2066,7 @@ h3 {
             content: '';
             /*background: _palette(bg);*/
             background: #070507;
-            background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+            /*background-image: url("https://www.transparenttextures.com/patterns/stardust.png");*/
             display: block;
             width: 100%;
             height: 100%;
