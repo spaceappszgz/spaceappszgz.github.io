@@ -1755,8 +1755,21 @@ h3 {
         }
 }
 
+#hiberus-logo {
+    width: 65%;
+    @include breakpoint(small) {
+                width: 85%;
+        }
+}
 
 #everis-logo {
+    width: 65%;
+    @include breakpoint(small) {
+                width: 85%;
+        }
+}
+
+#hub-logo {
     width: 85%;
     @include breakpoint(small) {
                 width: 85%;
@@ -1953,7 +1966,7 @@ h3 {
     font-family: 'Roboto', sans-serif;
     color: white;
     text-align: left;
-
+    text-align: justify;
     @include breakpoint(small) {
         font-size: 14px;
     }
