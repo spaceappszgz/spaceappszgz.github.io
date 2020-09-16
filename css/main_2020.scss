@@ -2260,7 +2260,8 @@ h3 {
         }
 
         .copyright {
-            color: _palette(fg-light);
+            //color: _palette(fg-light);
+            color: black;
             font-size: 0.8em;
             letter-spacing: _size(letter-spacing-alt);
             list-style: none;
