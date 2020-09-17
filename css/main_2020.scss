@@ -1755,8 +1755,13 @@ h3 {
         }
 }
 
-#hiberus-logo {
+#ibercivis-logo{
     width: 65%;
+}
+
+#hiberus-logo {
+    padding-top: 5%;
+    width: 70%;
     @include breakpoint(small) {
                 width: 85%;
         }
@@ -1770,6 +1775,7 @@ h3 {
 }
 
 #hub-logo {
+    padding-top: 5%;
     width: 85%;
     @include breakpoint(small) {
                 width: 85%;
@@ -1794,10 +1800,6 @@ h3 {
         }
 }
 
-
-#ibercivis-logo{
-    padding-top: 10%;
-}
 
 #mineco-logo{
     padding-top: 10%;
