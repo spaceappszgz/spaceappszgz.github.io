@@ -1774,6 +1774,21 @@ h3 {
         }
 }
 
+#tecnara-logo {
+    width: 55%;
+    @include breakpoint(small) {
+                width: 55%;
+        }
+}
+
+#numericco-logo {
+    
+    padding-top: 12%;
+    @include breakpoint(small) {
+                width: 85%;
+        }
+}
+
 #hub-logo {
     padding-top: 5%;
     width: 85%;
@@ -1793,20 +1808,12 @@ h3 {
     padding-top: 7%;
 }
 
-#geoslab {
-    width: 50%;
-    @include breakpoint(small) {
-                width: 55%;
-        }
-}
-
-
 #mineco-logo{
     padding-top: 10%;
 }
 
 #iaaa-logo{
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
 .social-buttons-col{
