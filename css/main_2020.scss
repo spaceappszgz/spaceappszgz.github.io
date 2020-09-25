@@ -1768,7 +1768,7 @@ h3 {
 }
 
 #everis-logo {
-    width: 72%;
+    width: 80%;
     @include breakpoint(small) {
                 width: 85%;
         }
@@ -1814,6 +1814,22 @@ h3 {
 
 #iaaa-logo{
     padding-top: 10%;
+}
+
+#geoslab-logo{
+    width: 50%;
+}
+
+#makerspace-logo{
+    width: 70%;
+}
+
+#montessori-logo{
+    padding-top: 10%;
+}
+
+#inycom-logo{
+    padding-top: 8%;
 }
 
 .social-buttons-col{
