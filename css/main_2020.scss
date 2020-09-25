@@ -1775,10 +1775,7 @@ h3 {
 }
 
 #tecnara-logo {
-    width: 55%;
-    @include breakpoint(small) {
-                width: 55%;
-        }
+    padding-top: 10%;
 }
 
 #numericco-logo {
