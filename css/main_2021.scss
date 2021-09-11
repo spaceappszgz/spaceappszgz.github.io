@@ -1786,8 +1786,7 @@ h3 {
 }
 
 #numericco-logo {
-    
-    padding-top: 12%;
+    padding-top: 22%;
     @include breakpoint(small) {
                 width: 85%;
         }
@@ -1833,8 +1832,12 @@ h3 {
     padding-top: 10%;
 }
 
+#sysdig-logo{
+    padding-top: 5%;
+}
+
 #inycom-logo{
-    padding-top: 8%;
+    padding-top: 15%;
 }
 
 .social-buttons-col{
