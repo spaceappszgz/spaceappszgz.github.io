@@ -1751,6 +1751,11 @@ h3 {
         }
 }
 
+.prize-text{
+    font-size: 120%;
+    color: #0f8fff;
+}
+
 .pat {
     width: 80%;
     @include breakpoint(small) {
