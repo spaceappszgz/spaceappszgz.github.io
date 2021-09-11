@@ -2223,7 +2223,7 @@ h3 {
     #main {
         > header {
             @include padding(12em, 0);
-            //@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/don-quijote-de-la-mancha_V1.jpg")'));
+            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/image_10_color.jpeg")'));
             background-attachment: fixed;
             background-position: center center;
             background-repeat: no-repeat;
@@ -2351,7 +2351,7 @@ h3 {
 
     body.landing {
         #page-wrapper {
-            /*@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/s1-1920.jpg")'));*/
+            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/image_10_color.jpeg")'));
             background-attachment: fixed;
             background-position: center center;
             background-repeat: no-repeat;
