@@ -1767,18 +1767,34 @@ h3 {
     width: 65%;
 }
 
+#aesa-logo{
+    padding-top: 15%;
+}
+
 #ministerio-logo{
     padding-top: 5%;
     width: 80%;
 }
 
 #academia-logo{
+    padding-top: 5%;
     width: 45%;
+}
+
+#hedyla-logo{
+    padding-top: 5%;
 }
 
 #hiberus-logo {
     padding-top: 5%;
     width: 70%;
+    @include breakpoint(small) {
+                width: 85%;
+        }
+}
+
+#adidas-logo {
+    width: 80%;
     @include breakpoint(small) {
                 width: 85%;
         }
@@ -1847,7 +1863,7 @@ h3 {
 }
 
 #inycom-logo{
-    padding-top: 15%;
+    padding-top: 5%;
 }
 
 .social-buttons-col{
