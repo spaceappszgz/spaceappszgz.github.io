@@ -220,7 +220,7 @@ $baseurl: '{{ site.baseurl }}/images/';
 
     .site-title {
         margin-top:6%;
-        color: black;
+        color: #38a9eb;
     }
 
     header {
@@ -1745,7 +1745,15 @@ h3 {
 
 .call-action {
     font-size:15px;
-    color: black;
+    color: #38a9eb;
+    @include breakpoint(small) {
+            font-size:10px;
+        }
+}
+
+.call-action-social {
+    font-size:15px;
+    color: white;
     @include breakpoint(small) {
             font-size:10px;
         }
@@ -2012,7 +2020,7 @@ h3 {
 }
 
 .event-date{
-    color:black;
+    color:#295ee3;
 }
 
 .social-logos{
