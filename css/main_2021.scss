@@ -1769,6 +1769,11 @@ h3 {
     color: #0f8fff;
 }
 
+.prize-text-note{
+    font-size: 80%;
+    color: #0f8fff;
+}
+
 .pat {
     width: 80%;
     @include breakpoint(small) {
@@ -1810,6 +1815,13 @@ h3 {
     width: 80%;
     @include breakpoint(small) {
                 width: 85%;
+        }
+}
+
+#deloitte-logo{
+    width: 40%;
+    @include breakpoint(small) {
+                width: 40%;
         }
 }
 
@@ -1876,7 +1888,7 @@ h3 {
 }
 
 #inycom-logo{
-    padding-top: 5%;
+    padding-top: 15%;
 }
 
 .social-buttons-col{
