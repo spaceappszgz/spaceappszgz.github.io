@@ -1786,25 +1786,27 @@ h3 {
 }
 
 #aesa-logo{
+    width: 90%;
     padding-top: 15%;
 }
 
 #ministerio-logo{
-    padding-top: 5%;
+    padding-top: 8%;
     width: 80%;
 }
 
 #academia-logo{
-    padding-top: 5%;
+    padding-top: 8%;
     width: 45%;
 }
 
 #hedyla-logo{
-    padding-top: 5%;
+    width: 90%;
+    padding-top: 10%;
 }
 
 #hiberus-logo {
-    padding-top: 5%;
+    padding-top: 8%;
     width: 70%;
     @include breakpoint(small) {
                 width: 85%;
@@ -1819,13 +1821,14 @@ h3 {
 }
 
 #deloitte-logo{
-    width: 40%;
+    width: 45%;
     @include breakpoint(small) {
                 width: 40%;
         }
 }
 
 #everis-logo {
+    padding-top:5%;
     width: 80%;
     @include breakpoint(small) {
                 width: 85%;
@@ -1884,7 +1887,7 @@ h3 {
 }
 
 #sysdig-logo{
-    padding-top: 5%;
+    padding-top: 8%;
 }
 
 #inycom-logo{
