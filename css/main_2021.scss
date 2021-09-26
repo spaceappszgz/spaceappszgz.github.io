@@ -1803,6 +1803,9 @@ h3 {
 #agenda-image{
     width: 45%;
     padding-bottom: 5%;
+    @include breakpoint(small) {
+        width: 80%;
+}
 }
 
 #hedyla-logo{
