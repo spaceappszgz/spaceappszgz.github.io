@@ -1604,12 +1604,11 @@ b{
 
     #header {
         @include vendor('transition', 'background-color #{_duration(transitions)} ease');
-        /*background: _palette(bg);*/
-        background: rgb(18,17,17);
-        background: -moz-linear-gradient(90deg, rgba(18,17,17,1) 0%, rgba(24,16,232,1) 46%);
-        background: -webkit-linear-gradient(90deg, rgba(18,17,17,1) 0%, rgba(24,16,232,1) 46%);
-        background: linear-gradient(90deg, rgba(18,17,17,1) 0%, rgba(24,16,232,1) 46%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#121111",endColorstr="#1810e8",GradientType=1);
+        background: rgb(2,0,36);
+        background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(104,9,121,1) 44%, rgba(0,217,255,1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(104,9,121,1) 44%, rgba(0,217,255,1) 100%);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(104,9,121,1) 44%, rgba(0,217,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d9ff",GradientType=1);
         height: 3em;
         left: 0;
         line-height: 3em;
@@ -1745,7 +1744,7 @@ h3 {
 
 #hackathon-span{
     font-weight: bold; 
-    color:blueviolet;
+    color:rgb(180, 226, 225);
 }
 
 .call-action {
@@ -2051,7 +2050,7 @@ h3 {
 }
 
 .event-date{
-    color:#295ee3;
+    color:rgb(180, 226, 225);
 }
 
 .social-logos{
