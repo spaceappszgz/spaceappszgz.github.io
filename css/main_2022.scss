@@ -1809,13 +1809,13 @@ h3 {
 }
 
 #hedyla-logo{
-    width: 90%;
-    padding-top: 10%;
+    width: 100%;
+    padding-top: 20%;
 }
 
 #hiberus-logo {
-    padding-top: 8%;
-    width: 70%;
+    padding-top: 20%;
+    width: 80%;
     @include breakpoint(small) {
                 width: 85%;
         }
@@ -1840,7 +1840,7 @@ h3 {
 }
 
 #everis-logo {
-    padding-top:5%;
+    padding-top:15%;
     width: 80%;
     @include breakpoint(small) {
                 width: 85%;
@@ -1852,7 +1852,8 @@ h3 {
 }
 
 #numericco-logo {
-    padding-top: 22%;
+    width: 100%;
+    padding-top: 12%;
 }
 
 #hub-logo {
@@ -1897,11 +1898,11 @@ h3 {
 
 #sysdig-logo{
     width: 90%;
-    padding-top: 8%;
 }
 
 #inycom-logo{
-    padding-top: 8%;
+    padding-top: 7%;
+    width: 90%;
 }
 
 .social-buttons-col{
@@ -2283,7 +2284,7 @@ h3 {
     #main {
         > header {
             @include padding(12em, 0);
-            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/background_2021.jpeg")'));
+            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/background_2022.png")'));
             background-attachment: fixed;
             background-position: center center;
             background-repeat: no-repeat;
@@ -2411,7 +2412,7 @@ h3 {
 
     body.landing {
         #page-wrapper {
-            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/background_2021.jpeg")'));
+            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/background_2022.png")'));
             background-attachment: fixed;
             background-position: center center;
             background-repeat: no-repeat;
@@ -2432,7 +2433,7 @@ h3 {
 
             #banner,
             .wrapper.style4 {
-                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/background_2021.jpeg")'));
+                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/background_2022.png")'));
                 background-attachment: fixed;
                 background-position: center center;
                 background-repeat: no-repeat;
