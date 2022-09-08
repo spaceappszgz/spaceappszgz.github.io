@@ -1822,9 +1822,10 @@ h3 {
 }
 
 #adidas-logo {
-    width: 80%;
+    padding-top: 10%;
+    width: 65%;
     @include breakpoint(small) {
-                width: 85%;
+                width: 65%;
         }
 }
 
