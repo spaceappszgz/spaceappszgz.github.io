@@ -1823,9 +1823,9 @@ h3 {
 
 #adidas-logo {
     padding-top: 10%;
-    width: 65%;
+    width: 60%;
     @include breakpoint(small) {
-                width: 65%;
+                width: 60%;
         }
 }
 
@@ -1890,7 +1890,8 @@ h3 {
 }
 
 #makerspace-logo{
-    width: 65%;
+    width: 70%;
+    padding-top: 5%;
 }
 
 #montessori-logo{
@@ -1898,7 +1899,7 @@ h3 {
 }
 
 #sysdig-logo{
-    width: 90%;
+    width: 80%;
 }
 
 #inycom-logo{
@@ -1910,9 +1911,17 @@ h3 {
     padding-top: 1%;
 }
 
+#ayto-logo {
+    padding-top: 15%;
+    width: 95%;
+    @include breakpoint(small) {
+                width: 70%;
+        }
+}
+
 #etopia-logo {
     padding-top: 15%;
-    width: 75%;
+    width: 85%;
     @include breakpoint(small) {
                 width: 70%;
         }
