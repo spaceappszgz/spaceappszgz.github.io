@@ -4,9 +4,9 @@
 # Site settings
 title: Space Apps Zaragoza
 description: |
-  1 y 2 de octubre
+  6 y 7 de octubre
 owner: Space Apps Zaragoza
-first_published: 2022
+first_published: 2023
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sazgz.com" # the base hostname & protocol for your site
 social:
