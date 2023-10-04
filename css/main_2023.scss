@@ -692,13 +692,13 @@ $baseurl: '{{ site.baseurl }}/images/';
 }
 
 #makerspace-logo{
-    width: 50%;
+    width: 55%;
     //height: 120%;
 }
 
-#dda-logo{
+#ceeina-logo{
     padding-top: 5%;
-    width: 70%;
+    width: 85%;
 }
 
 #codelab-logo{
@@ -1883,7 +1883,7 @@ h3 {
 
 #etopia-logo {
     padding-top: 5%;
-    width: 100%;
+    width: 110%;
     @include breakpoint(small) {
                 width: 100%;
         }
