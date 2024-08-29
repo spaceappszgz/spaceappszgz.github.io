@@ -692,7 +692,7 @@ $baseurl: '{{ site.baseurl }}/images/';
 }
 
 #makerspace-logo{
-    width: 55%;
+    width: 45%;
     //height: 120%;
 }
 
@@ -1786,7 +1786,12 @@ h3 {
 }
 
 #unizar-logo{
-    width: 40%;
+    width: 80%;
+}
+
+#iaj-logo{
+    padding-top: 5%;
+    width: 65%;
 }
 
 #ibercivis-logo{
@@ -1883,7 +1888,7 @@ h3 {
 
 #etopia-logo {
     padding-top: 5%;
-    width: 110%;
+    width: 120%;
     @include breakpoint(small) {
                 width: 100%;
         }
