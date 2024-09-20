@@ -697,8 +697,8 @@ $baseurl: '{{ site.baseurl }}/images/';
 }
 
 #ceeina-logo{
-    padding-top: 5%;
-    width: 85%;
+    padding-top: 6%;
+    width: 90%;
 }
 
 #codelab-logo{
@@ -1790,13 +1790,13 @@ h3 {
 }
 
 #iaj-logo{
-    padding-top: 5%;
+    padding-top: 6%;
     width: 65%;
 }
 
 #ibercivis-logo{
-    padding-top: 5%;
-    width: 80%;
+    padding-top: 13%;
+    width: 90%;
 }
 
 #flat101-logo{
@@ -1823,9 +1823,9 @@ h3 {
 
 #adidas-logo {
     padding-top: 10%;
-    width: 50%;
+    width: 45%;
     @include breakpoint(small) {
-                width: 50%;
+                width: 45%;
         }
 }
 
@@ -1833,9 +1833,9 @@ h3 {
     padding-top: 1%;
 }
 
-#everis-logo {
-    padding-top:15%;
-    width: 65%;
+#ntt-logo {
+    padding-top:8%;
+    width: 90%;
     @include breakpoint(small) {
                 width: 70%;
         }
@@ -1847,7 +1847,12 @@ h3 {
 
 #numericco-logo {
     width: 80%;
-    padding-top: 12%;
+    padding-top: 13%;
+}
+
+#zebra-logo {
+    padding-top: 6%;
+    width: 60%;
 }
 
 #criollo {
@@ -1888,9 +1893,9 @@ h3 {
 
 #etopia-logo {
     padding-top: 5%;
-    width: 120%;
+    width: 150%;
     @include breakpoint(small) {
-                width: 100%;
+                width: 150%;
         }
 }
 
