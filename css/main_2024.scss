@@ -1814,10 +1814,10 @@ h3 {
 }
 
 #hiberus-logo {
-    padding-top: 20%;
+    padding-top: 18%;
     width: 85%;
     @include breakpoint(small) {
-        padding-top: 20%;
+        padding-top: 18%;
                 width: 80%;
         }
 }
@@ -1836,10 +1836,10 @@ h3 {
 }
 
 #ntt-logo {
-    padding-top:8%;
-    width: 90%;
+    padding-top:5%;
+    width: 100%;
     @include breakpoint(small) {
-                width: 90%;
+                width: 100%;
         }
 }
 
@@ -1848,8 +1848,8 @@ h3 {
 }
 
 #numericco-logo {
-    width: 80%;
-    padding-top: 13%;
+    width: 85%;
+    padding-top: 10%;
 }
 
 #zebra-logo {
