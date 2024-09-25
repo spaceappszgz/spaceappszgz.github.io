@@ -1786,12 +1786,17 @@ h3 {
 }
 
 #unizar-logo{
+    width: 115%;
+}
+
+#inetum-logo{
+    padding-top: 10%;
     width: 80%;
 }
 
 #iaj-logo{
-    padding-top: 6%;
-    width: 65%;
+    padding-top: 12%;
+    width: 95%;
 }
 
 #ibercivis-logo{
@@ -1823,11 +1828,11 @@ h3 {
 }
 
 #adidas-logo {
-    padding-top: 4%;
-    width: 60%;
+    padding-top: 8%;
+    width: 55%;
     @include breakpoint(small) {
         padding-top: 6%;
-                width: 60%;
+        width: 60%;
         }
 }
 
@@ -1848,8 +1853,8 @@ h3 {
 }
 
 #numericco-logo {
-    width: 85%;
-    padding-top: 10%;
+    width: 88%;
+    padding-top: 11%;
 }
 
 #zebra-logo {
