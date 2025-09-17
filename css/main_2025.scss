@@ -1790,14 +1790,14 @@ h3 {
 }
 
 #bts-logo{
-    padding-top: 5%;
+    padding-top: 8%;
     width: 120%;
 }
 
 #samca-logo{
-    padding-top: 5%;
+    padding-top: 8%;
     width: 100%;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 #sysdig-logo{
@@ -1839,11 +1839,20 @@ h3 {
 }
 
 #adidas-logo {
-    padding-top: 8%;
+    //padding-top: %;
     width: 55%;
     @include breakpoint(small) {
         padding-top: 6%;
         width: 60%;
+        }
+}
+
+#bigtech-logo {
+    padding-top: 15%;
+    width: 80%;
+    @include breakpoint(small) {
+        padding-top: 6%;
+        width: 80%;
         }
 }
 
@@ -1853,7 +1862,7 @@ h3 {
 
 #ntt-logo {
     padding-top:15%;
-    width: 100%;
+    width: 110%;
     @include breakpoint(small) {
                 width: 100%;
         }
