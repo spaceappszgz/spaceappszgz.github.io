@@ -162,47 +162,112 @@ layout: landing_2026
     </table> -->
 
 </section>
-<section id="sponsors" class="wrapper style1 special" style="height:100%; background-color: white">
-    <div class="inner">
+<style>
+  #sponsors-custom {
+    background-color: #ffffff !important;
+    padding: 4rem 1rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  #sponsors-custom .tier-block {
+    margin: 2.5rem auto !important;
+    max-width: 1000px !important;
+    text-align: center !important;
+  }
+  #sponsors-custom .tier-title {
+    color: #333333 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 1.5rem !important;
+    display: block !important;
+  }
+  #sponsors-custom .tier-logos {
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  #sponsors-custom .sponsor-item {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin: 15px 30px !important;
+    float: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  #sponsors-custom .sponsor-item img {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    position: static !important;
+    transform: none !important;
+  }
+  /* Tamaños fijos por nivel para evitar que colapsen a 0px */
+  #sponsors-custom .img-mision {
+    width: 220px !important;
+    max-height: 95px !important;
+    object-fit: contain !important;
+  }
+  #sponsors-custom .img-orbita {
+    width: 170px !important;
+    max-height: 75px !important;
+    object-fit: contain !important;
+  }
+  #sponsors-custom .img-despegue {
+    width: 130px !important;
+    max-height: 55px !important;
+    object-fit: contain !important;
+  }
+  #sponsors-custom .tier-divider {
+    border: 0 !important;
+    border-top: 1px solid #e0e0e0 !important;
+    margin: 2rem auto !important;
+    height: 1px !important;
+  }
+</style>
+
+<section id="sponsors-custom" class="wrapper style1 special">
+    <div class="inner" style="width: 100% !important; max-width: 1100px !important; margin: 0 auto !important;">
         <header class="major">
-            <h2 style="color: black">patrocinadores<br /></h2>
+            <h2 style="color: #000000 !important;">Patrocinadores</h2>
         </header>
-       <!-- <div class="row" style="width: 100%;">
-            <div class="col-xs-3 col-md-3">
-                <a class="logo-link" href="https://catedrabts.i3a.es/">
-                    <img id="bts-logo" class="pat" src="images/catedra-bts-logo.png" /></a>
-            </div>
-            <div class="col-xs-3 col-md-3">
-                <a class="logo-link" href="https://catedrasamcadt.unizar.es/">
-                    <img id="samca-logo" class="pat" src="images/catedra-samca-logo.png" /></a>
-            </div>
-            <div class="col-xs-3 col-md-3">
-                <a class="logo-link" href="https://www.adidas.es/">
-                    <img id="adidas-logo" class="pat" src="images/adidas-logo.png" /></a>
-            </div>
-            <div class="col-xs-3 col-md-3">
-                <a class="logo-link" href="https://opendata.aragon.es/">
-                    <img id="aragon-open-data-logo" class="pat" src="images/aragon-open-data-logo.png" />
+
+        <!-- Mayor Tier: Nivel Misión Espacial -->
+        <div class="tier-block">
+            <h3 class="tier-title" style="font-size: 1.3rem !important;">Nivel Misión Espacial</h3>
+            <div class="tier-logos">
+                <a class="sponsor-item" href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-mision" src="images/aws.svg" alt="AWS" />
+                </a>
+                <a class="sponsor-item" href="https://es.nttdata.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-mision" src="images/ntt-data-logo.png" alt="NTT DATA" />
                 </a>
             </div>
-        </div>-->
-        <div class="row" style="width: 100%;">
-           <!-- <div class="col-xs-3 col-md-3">
-                <a class="logo-link" href="https://www.thebigtech.es/">
-                    <img id="bigtech-logo" class="pat" src="images/BigTech-Logo.png" /></a>
-            </div>-->
-            <div class="col-xs-4 col-md-4">
-                <a class="logo-link" href="http://www.hiberus.com/">
-                    <img id="hiberus-logo" class="pat" src="images/hiberus-logo-2.png" />
+        </div>
+
+        <hr class="tier-divider" style="width: 60% !important;" />
+
+        <!-- Tier Intermedio: Nivel Órbita -->
+        <div class="tier-block">
+            <h3 class="tier-title" style="font-size: 1.1rem !important; color: #555555 !important;">Nivel Órbita</h3>
+            <div class="tier-logos">
+                <a class="sponsor-item" href="https://www.numericco.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-orbita" src="images/logotipo-numericco.png" alt="Numéricco" />
                 </a>
             </div>
-            <div class="col-xs-4 col-md-4">
-                <a class="logo-link" href="https://es.nttdata.com/">
-                    <img id="ntt-logo" class="pat" src="images/ntt-data-logo.png" /></a>
-            </div>
-            <div class="col-xs-4 col-md-4">
-                <a class="logo-link" href="https://www.numericco.com/">
-                    <img id="numericco-logo" class="pat" src="images/logotipo-numericco.png" />
+        </div>
+
+        <hr class="tier-divider" style="width: 40% !important;" />
+
+        <!-- Menor Tier: Nivel Despegue -->
+        <div class="tier-block">
+            <h3 class="tier-title" style="font-size: 0.95rem !important; color: #777777 !important;">Nivel Despegue</h3>
+            <div class="tier-logos">
+                <a class="sponsor-item" href="http://www.hiberus.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-despegue" src="images/hiberus-logo-2.png" alt="Hiberus" />
                 </a>
             </div>
         </div>
