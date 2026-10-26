@@ -229,46 +229,56 @@ layout: landing_2026
   }
 </style>
 
-<section id="sponsors-custom" class="wrapper style1 special">
-    <div class="inner" style="width: 100% !important; max-width: 1100px !important; margin: 0 auto !important;">
+<section id="sponsors" class="wrapper style1 special" style="background-color: white; height: auto; padding: 4em 1em;">
+    <div class="inner" style="max-width: 1100px; margin: 0 auto; width: 100%;">
         <header class="major">
-            <h2 style="color: #000000 !important;">Patrocinadores</h2>
+            <h2 style="color: black">Patrocinadores</h2>
         </header>
 
-        <!-- Mayor Tier: Nivel Misión Espacial -->
-        <div class="tier-block">
-            <h3 class="tier-title" style="font-size: 1.3rem !important;">Nivel Misión Espacial</h3>
-            <div class="tier-logos">
-                <a class="sponsor-item" href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="img-mision" src="images/aws.svg" alt="AWS" />
-                </a>
-                <a class="sponsor-item" href="https://es.nttdata.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="img-mision" src="images/ntt-data-logo.png" alt="NTT DATA" />
-                </a>
+        <!-- Tier 1: Nivel Misión Espacial (Mayor) -->
+        <div style="margin-bottom: 3.5em;">
+            <h3 style="color: #222; margin-bottom: 1.2em;">Nivel Misión Espacial</h3>
+            <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 2rem;">
+                <div style="flex: 1 1 240px; max-width: 300px; text-align: center;">
+                    <a class="logo-link" href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer" style="display: block; border: none;">
+                        <img id="aws-logo" class="pat" src="images/aws.svg" alt="AWS" style="padding-top: 0; width: 85%; max-height: 110px; height: auto; object-fit: contain; margin: 0 auto;" />
+                    </a>
+                </div>
+                <!-- NTT DATA: Aumentado -->
+                <div style="flex: 1 1 280px; max-width: 360px; text-align: center;">
+                    <a class="logo-link" href="https://es.nttdata.com/" target="_blank" rel="noopener noreferrer" style="display: block; border: none;">
+                        <img id="ntt-logo" class="pat" src="images/ntt-data-logo.png" alt="NTT DATA" style="padding-top: 0; width: 100%; max-height: 135px; height: auto; object-fit: contain; margin: 0 auto;" />
+                    </a>
+                </div>
             </div>
         </div>
 
-        <hr class="tier-divider" style="width: 60% !important;" />
+        <hr style="border-top: 1px solid #ddd; width: 65%; margin: 2.5em auto;" />
 
-        <!-- Tier Intermedio: Nivel Órbita -->
-        <div class="tier-block">
-            <h3 class="tier-title" style="font-size: 1.1rem !important; color: #555555 !important;">Nivel Órbita</h3>
-            <div class="tier-logos">
-                <a class="sponsor-item" href="https://www.numericco.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="img-orbita" src="images/logotipo-numericco.png" alt="Numéricco" />
-                </a>
+        <!-- Tier 2: Nivel Órbita (Intermedio) -->
+        <div style="margin-bottom: 3.5em;">
+            <h3 style="color: #555; font-size: 20px; margin-bottom: 1.2em;">Nivel Órbita</h3>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <!-- Numéricco: Aumentado -->
+                <div style="flex: 1 1 240px; max-width: 320px; text-align: center;">
+                    <a class="logo-link" href="https://www.numericco.com/" target="_blank" rel="noopener noreferrer" style="display: block; border: none;">
+                        <img id="numericco-logo" class="pat" src="images/logotipo-numericco.png" alt="Numéricco" style="padding-top: 0; width: 100%; max-height: 105px; height: auto; object-fit: contain; margin: 0 auto;" />
+                    </a>
+                </div>
             </div>
         </div>
 
-        <hr class="tier-divider" style="width: 40% !important;" />
+        <hr style="border-top: 1px solid #ddd; width: 45%; margin: 2.5em auto;" />
 
-        <!-- Menor Tier: Nivel Despegue -->
-        <div class="tier-block">
-            <h3 class="tier-title" style="font-size: 0.95rem !important; color: #777777 !important;">Nivel Despegue</h3>
-            <div class="tier-logos">
-                <a class="sponsor-item" href="http://www.hiberus.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="img-despegue" src="images/hiberus-logo-2.png" alt="Hiberus" />
-                </a>
+        <!-- Tier 3: Nivel Despegue (Menor) -->
+        <div>
+            <h3 style="color: #777; font-size: 16px; margin-bottom: 1.2em;">Nivel Despegue</h3>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <div style="flex: 1 1 140px; max-width: 170px; text-align: center;">
+                    <a class="logo-link" href="http://www.hiberus.com/" target="_blank" rel="noopener noreferrer" style="display: block; border: none;">
+                        <img id="hiberus-logo" class="pat" src="images/hiberus-logo-2.png" alt="Hiberus" style="padding-top: 0; width: 100%; max-height: 55px; height: auto; object-fit: contain; margin: 0 auto;" />
+                    </a>
+                </div>
             </div>
         </div>
 
