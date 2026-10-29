@@ -1846,12 +1846,8 @@ h3 {
 }
 
 #adidas-logo {
-    //padding-top: %;
-    width: 61%;
-    @include breakpoint(small) {
-        padding-top: 6%;
-        width: 61%;
-        }
+    padding-top: 0;
+    width: 100%;
 }
 
 #oceano-logo {
